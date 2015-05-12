@@ -104,9 +104,9 @@ class ByteParty
         }
 
         //printing the 8-bit unsigned integers from list after changes
-        foreach (var item in integers)
+        foreach (var integer in integers)
         {
-            Console.WriteLine(item);
+            Console.WriteLine(integer);
         }
     }
 }

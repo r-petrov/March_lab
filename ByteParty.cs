@@ -44,7 +44,7 @@ class ByteParty
         char separator = ' ';
         List<string[]> commands = new List<string[]>();
 
-        again:
+    again:
         while (command.ToLower() != "party over")
         {
             command = Console.ReadLine();

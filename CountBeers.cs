@@ -52,6 +52,7 @@ class CountBeers
         stacks = stacks + stacksFromBeers;
         beers = beers % 20;
 
-        Console.WriteLine("{0} stacks + {1} beers", stacks, beers);
+        //Console.WriteLine("{0} stacks + {1} beers", stacks, beers);
+	Console.WriteLine(stacks + " stacks " + beers + " beers");
     }
 }
